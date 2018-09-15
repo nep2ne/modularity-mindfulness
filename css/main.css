@@ -18,29 +18,47 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  text-align: center;
+}
+
 body {
   margin: 0;
   padding: 0;
 }
 
-.blue {
-  color: #0084ab;
+nav li {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
 }
 
 a {
+  color: #0084ab;
+  display: block;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
 
+  .nav li,
   .page-title {
-    text-align-center;
+    text-align: center;
   }
-}
 
+}
 @media only screen and (min-width: 60em) {
 
   .nav {
     text-align: right;
+  }
+
+  div .page-title {
+    text-align: left;
   }
 }
