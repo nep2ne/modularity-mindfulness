@@ -34,14 +34,27 @@ nav li {
 }
 
 a {
-  color: #0084ab;
+  color: #005e76;
   display: block;
   text-decoration: none;
+  border-bottom: 2px solid #8bc9d9;
+}
+
+.btn {
+  background-color: #fff;
+  color: #005e76;
+  border: 2px solid #8bc9d9;
+}
+
+.btn:hover {
+  background-color: #0084a6;
+  color: #e2e2e2;
+  border: 2px solid #0084a6;
 }
 
 a:hover {
-  background-color: #0074d9;
-  color: #fff;
+  background-color: #0084a6;
+  color: #e2e2e2;
 }
 
 @media only screen and (min-width: 25em) {
@@ -61,4 +74,8 @@ a:hover {
   div .page-title {
     text-align: left;
   }
+}
+
+footer {
+  color: #e2e2e2;
 }
