@@ -14,7 +14,7 @@ nav li {
   display: inline-block;
 }
 
-a {
+.nav a {
   color: #005e76;
   text-decoration: none;
   border-bottom: 2px solid #8bc9d9;
@@ -25,21 +25,16 @@ a {
   border-bottom: 2px solid #e2e2e2;
 }
 
-.btn {
-  background-color: #fff;
-  color: #005e76;
-  border: 2px solid #8bc9d9;
-}
-
-.btn:hover {
-  background-color: #0084a6;
-  color: #fff;
-  border: 2px solid #0084a6;
-}
-
 .btn-ghost {
-  background-color: #005e76;
-  color: #fff;
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: 2px;
+}
+
+.btn-ghost:hover {
+  background-color: #0084a6;
+  border-color: #005e76;
+  color: #000;
 }
 
 a:hover {
@@ -66,8 +61,4 @@ a:hover {
     text-align: left;
   }
 
-}
-
-footer {
-  color: #e2e2e2;
 }
